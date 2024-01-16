@@ -1,5 +1,5 @@
 # Lending Club Case study
-> Project to analyse loans data to identify the factors that drive the loan defaults.
+Project to analyse loans data to identify the factors that drive the loan defaults.
 
 
 ## Table of Contents
@@ -8,45 +8,54 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- What is the background of your project?
+A consumer finance company that specialises in lending various types of loans to urban customers is looking forward to identify and avoid risks of business loss and financial loss. 
+
+The customers labelled as 'charged-off' are the 'defaulters' of loan, who cause largest amount of financial loss to the company
+
+Alternatively business loss comes from not offering loans to consumers who are not going to default the loan. 
+
+- What is the business problem that your project is trying to solve?
+In this project we have performed EDA to analyse the influence of consumer attributes and loan attributes on tendency of loan default.
+
+
+- What is the dataset that is being used?
+loans.csv dataset contains data of all loans applied during the time period 2007 to 2011
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Conclusion 1 from the analysis
+Applicants with annual income range of 0 to 40K are more likely to dafualt loan 
+
+- Conclusion 2 from the analysis
+High interest rate of greater than 15% have higher chances of charge off
+
+
+- Conclusion 3 from the analysis
+Applicants who apply loan for small business are more likely to default a loan
+
+
+- Conclusion 4 from the analysis
+Applicants with higher DTI are more likely to charge off
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - Ver 3.11.5
+- numpy
+- pandas 
+- matplotlib.pyplot 
+- seaborn
+- datetime
+- warnings
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on [Lending Club Case study tutorial](https://learn.upgrad.com/course/5795/segment/42803/265973/812462/4081465).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@sang2012] - feel free to contact me!
